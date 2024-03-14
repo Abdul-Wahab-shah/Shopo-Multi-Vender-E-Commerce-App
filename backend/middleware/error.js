@@ -1,6 +1,6 @@
 const ErrorHandler = require("../utils/ErrorHandler");
 
-module.exports = (err, res, res, next) => {
+module.exports = (err, req, res, next) => {
   err.statusCode = err.statusCode || "Internal server Error";
 
   // wrong mongodb id error
