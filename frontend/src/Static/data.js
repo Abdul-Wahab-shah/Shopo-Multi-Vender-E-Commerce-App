@@ -229,20 +229,20 @@ export const navItems = [
       title: "Gifts",
       subTitle: "",
       image_Url:
-        "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+        "https://th.bing.com/th/id/OIP.ipRosrNVoRHJKCVxVQLUcAHaHa?rs=1&pid=ImgDetMain",
     },
     {
       id: 7,
       title: "Pet Care",
       subTitle: "",
-      image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+      image_Url: "https://th.bing.com/th/id/OIP.EfN7Gtru9R6AIjEf6mJE3wHaE8?rs=1&pid=ImgDetMain",
     },
     {
       id: 8,
       title: "Mobile and Tablets",
       subTitle: "",
       image_Url:
-        "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
+        "https://th.bing.com/th/id/OIP.tIAJ6rZUzydnTz0t3s6aqAHaFg?rs=1&pid=ImgDetMain",
     },
     {
       id: 9,
@@ -351,7 +351,7 @@ export const navItems = [
       rating: 4,
       total_sell: 75,
       stock: 10,
-      category:"Computers & Laptop"
+      category:"Computers & Laptops"
     },
     {
       id: 4,
