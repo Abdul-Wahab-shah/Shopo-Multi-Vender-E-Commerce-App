@@ -47,7 +47,7 @@ const Header = (activeHeading) => {
   return (
     <>
       <div className={`${styles.section}`}>
-        <div className=" 800px:h-[50px] 800px:my-[20px] flex items-center justify-between">
+        <div className=" hidden md:h-[50px] md:flex md:my-[20px] items-center justify-between">
           <div>
             <Link to="/">
               <img
@@ -103,17 +103,18 @@ const Header = (activeHeading) => {
           </div>
         </div>
       </div>
+      {/* second header */}
       <div
         className={`${
           active === true ? "shadow-sm fixed top-0 left-0 z-10" : null
-        } transition  800px:flex items-center justify-between w-full bg-[#3321c8] h-[70px]`}
+        } transition items-center justify-between w-full bg-[#3321c8] h-[70px]`}
       >
         <div
           className={`${styles.section} relative ${styles.noramlFlex} justify-between`}
         >
           {/* categories */}
           <div onClick={() => setDropDown(!dropDown)}>
-            <div className="relative h-[60px] mt-[10px] w-[270px] 1000px:block">
+            <div className="relative h-[60px] mt-[10px] w-[270px] hidden lg:block">
               <BiMenuAltLeft size={30} className="absolute top-3 left-2" />
               <button
                 className={`h-[100%] w-full flex justify-between items-center pl-10 bg-white font-sans text-lg font-[500] select-none rounded-t-md`}

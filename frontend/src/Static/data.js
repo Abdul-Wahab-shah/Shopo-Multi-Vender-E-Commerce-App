@@ -235,7 +235,7 @@ export const navItems = [
       id: 7,
       title: "Pet Care",
       subTitle: "",
-      image_Url: "https://th.bing.com/th/id/OIP.EfN7Gtru9R6AIjEf6mJE3wHaE8?rs=1&pid=ImgDetMain",
+      image_Url: "https://im.indiatimes.in/media/content/2012/Apr/pets_1333353042_460x460.jpg",
     },
     {
       id: 8,
@@ -265,29 +265,29 @@ export const navItems = [
     {
       id: 1,
       category:"Computers and Laptops",
-      name: "MacBook pro M2 chipset 256gb ssd 8gb ram space-gray color with apple 1 year warranty",
+      name: "I-Mack chipset 512gb ssd 16gb ram space-gray color with apple 1 year warranty",
       description:
         "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
       image_Url: [
         {
           public_id: "test",
-          url: "https://www.istorebangladesh.com/images/thumbs/0000286_macbook-pro-m1_550.png",
+          url: "https://th.bing.com/th/id/OIP.T9Pe8Zcz2kzeRJGOSU89JgHaE8?rs=1&pid=ImgDetMain",
         },
         {
           public_id: "test",
-          url: "https://www.istorebangladesh.com/images/thumbs/0000286_macbook-pro-m1_550.png",
+          url: "https://th.bing.com/th/id/OIP.T9Pe8Zcz2kzeRJGOSU89JgHaE8?rs=1&pid=ImgDetMain",
         },
       ],
       shop: {
-        name: "Apple inc.",
+        name: "I-Mack",
         shop_avatar: {
           public_id: "test",
           url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
         },
         ratings: 4.2,
       },
-      price: 1099,
-      discount_price: 1049,
+      price: 1249,
+      discount_price: 1199,
       rating: 4,
       total_sell: 35,
       stock: 10,
@@ -331,11 +331,11 @@ export const navItems = [
       image_Url: [
         {
           public_id: "test",
-          url: "https://www.istorebangladesh.com/images/thumbs/0000286_macbook-pro-m1_550.png",
+          url: "https://th.bing.com/th/id/OIP.xZXJ3Akst_v-zt3gKmlSrgHaHa?rs=1&pid=ImgDetMain",
         },
         {
           public_id: "test",
-          url: "https://www.istorebangladesh.com/images/thumbs/0000286_macbook-pro-m1_550.png",
+          url: "https://th.bing.com/th/id/OIP.xZXJ3Akst_v-zt3gKmlSrgHaHa?rs=1&pid=ImgDetMain",
         },
       ],
       shop: {
