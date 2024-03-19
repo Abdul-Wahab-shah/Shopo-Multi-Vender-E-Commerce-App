@@ -4,9 +4,9 @@ import CountDown from "../CountDown";
 import { Link } from "react-router-dom";
 import { FaPersonWalkingArrowRight } from "react-icons/fa6";
 
-const EventCard = () => {
+const EventCard = ({active}) => {
   return (
-    <div className="w-full block bg-white rounded-lg lg:flex p-2 mb-8">
+    <div className={`w-full block bg-white rounded-lg lg:flex p-2 ${active ? "unset" : "mb-8"} `}>
       <div className="w-full lg:w-[50%] m-auto">
         <img
           src="https://m.media-amazon.com/images/I/31Vle5fVdaL.jpg"

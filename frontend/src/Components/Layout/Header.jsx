@@ -11,15 +11,21 @@ import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
 import { BiMenuAltLeft } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
 import Navbar from "./Navbar";
+import {useSelector} from "react-redux"
 
 import DropDown from "./DropDown";
+import { backend_url } from "../../server.js";
 
 const Header = (activeHeading) => {
+  const {isAuthenticated,user}=useSelector((state)=>state.user)
   const [searchTerm, setSearchTerm] = useState("");
   const [searchData, setSearchData] = useState([]);
   const [active, setActive] = useState(false);
   const [dropDown, setDropDown] = useState(false);
   const [allProducts, setAllProducts] = useState(productData);
+
+  console.log(user)
+  console.log(setAllProducts)
 
   const handleSearchChange = (e) => {
     const term = e.target.value;
@@ -31,6 +37,7 @@ const Header = (activeHeading) => {
     } else {
       const filteredProducts = allProducts.filter((product) =>
         product.name.toLowerCase().includes(term.toLowerCase())
+        
       );
       setSearchData(filteredProducts);
     }
@@ -45,7 +52,8 @@ const Header = (activeHeading) => {
   });
 
   return (
-    <>
+   
+        <>
       <div className={`${styles.section}`}>
         <div className=" hidden md:h-[50px] md:flex md:my-[20px] items-center justify-between">
           <div>
@@ -160,16 +168,26 @@ const Header = (activeHeading) => {
             </div>
             <div className={`${styles.noramlFlex}`}>
               <div className="relative cursor-pointer mr-[15px]">
-                <Link to="/login">
-                  <CgProfile size={30} color="rgb(255 255 255/83%" />
-                </Link>
+                {
+                  isAuthenticated ?(
+                    <Link to="/profile">
+                   <img src={`${backend_url} ${user.avatar}`} className="w-[40px] h-[40px] rounded-full" alt="profile" />
+                  </Link>
+                  ):(
+                    <Link to="/login">
+                    <CgProfile size={30} color="rgb(255 255 255/83%" />
+                  </Link>
+                  )
+                
+                }
+               
               </div>
             </div>
           </div>
         </div>
       </div>
     </>
-  );
+      )
 };
 
 export default Header;
