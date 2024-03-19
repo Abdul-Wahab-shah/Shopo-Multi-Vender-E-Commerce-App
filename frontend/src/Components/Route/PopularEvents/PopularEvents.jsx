@@ -6,7 +6,7 @@ const PopularEvents = () => {
   return (
     <div className={`${styles.section}`}>
     <div className={`${styles.heading}`}>
-      <h1>Popular Events</h1>
+      <h1 className='mb-5'>Popular Events</h1>
    <div className="w-full grid">
     <EventCard/>
    </div>
