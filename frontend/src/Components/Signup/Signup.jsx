@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import styles from "../../Styles/styles";
 import { Link } from "react-router-dom";
