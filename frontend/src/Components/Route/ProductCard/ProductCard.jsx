@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import styles from "../../../Styles/styles";
 import { AiFillHeart, AiOutlineEye, AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import ProductDetailsCard from "../ProductDetailsCard/ProductDetailsCard";
+// import Wishlist from "../Wishlist/Wishlist";
 
 const ProductCard = ({ data }) => {
   const [open, setOpen] = useState(false);
