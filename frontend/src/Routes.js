@@ -7,6 +7,7 @@ import BestSellingPage from "./Pages/BestSellingPage";
 import PopularEventsPage from "./Pages/PopularEventsPage";
 import FAQPage from "./Pages/FAQPage";
 import ProductDetailsPage from "./Pages/ProductDetailsPage";
+import ProfilePage from "./Pages/ProfilePage";
 
 
 export{
@@ -19,4 +20,5 @@ export{
     PopularEventsPage,
     FAQPage,
     ProductDetailsPage,
+    ProfilePage
 }

@@ -25,7 +25,6 @@ const ProductDetailsPage = () => {
                 data && <SuggestedProduct data={data}/>
              } 
             
-                 {/* <SuggestedProduct /> */}
             
           
             <Footer />
